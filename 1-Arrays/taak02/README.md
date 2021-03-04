@@ -57,8 +57,7 @@ echo $medewerkers[$x]['voornaam']; // bij $x = 1 is de waarde 'Donald'
 
 ## Eindresultaat
 
-![Eindresultaat](/PHP-EXPERT/1-Arrays/taak02/images/resultaat.png)
-
+![Eindresultaat](images/resultaat.png)
 
 ## Bronnen
 
