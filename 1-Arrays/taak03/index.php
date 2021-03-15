@@ -30,8 +30,12 @@ $medewerkers = [
 
 ];
 
-    foreach ($medewerkers as $value) {
-    echo "$value <br>";
+    foreach ($medewerkers as $key => $medewerker ) {
+      echo "Key:" . " " . $key . " = van:" . " " . $medewerker['voornaam'];
+      echo " " . $medewerker ['achternaam'];
+      echo " " . "De" . " " . $medewerker['functie'] . " " ;
+      echo "<br>";
+
     }
 
 ?>
